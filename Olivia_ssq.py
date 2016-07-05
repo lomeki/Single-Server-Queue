@@ -83,5 +83,5 @@ def main(arrival_times,service_times):
         service_time = at_cashier.service_time
         print '%2.d %12.4f %16.4f %16.4f' %(ID,queue_arrival,server_arrival,home_arrival)
     print '*' * 60
-
+# This is how you edit
 main(arrival_times,service_times)
